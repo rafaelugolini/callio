@@ -4,6 +4,8 @@ EXPOSE 3000
 
 WORKDIR /app
 
+LABEL org.opencontainers.image.source https://github.com/rafaelugolini/callio
+
 # Prefer not to run as root.
 USER deno
 
