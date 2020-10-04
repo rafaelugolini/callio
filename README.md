@@ -31,5 +31,5 @@ docker run \
   -p 3000:3000 \
   --name callio \
   -v $(pwd)/scripts:/app/scripts \
-  callio
+  ghcr.io/rafaelugolini/callio:latest
 ```
